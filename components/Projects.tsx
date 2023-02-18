@@ -7,7 +7,7 @@ import {motion} from "framer-motion"
 import tint from "./assets/tint.jpeg"
 
 type Props = {
-    photocards?:  StaticImageData;
+    photocards?:  string;
     paragraphs?: string;
     heading?: string;
      

@@ -1,7 +1,10 @@
 import React from 'react'
 import {motion} from "framer-motion"
 
+type Props ={
+  photocards?:  string;
 
+}
 
 export default function AboutCards({photocards }: Props) {
   return (

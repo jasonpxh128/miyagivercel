@@ -2,7 +2,12 @@ import { MotionConfig } from 'framer-motion'
 import React from 'react'
 import {motion} from "framer-motion"
 
-
+type Props = {
+  photocards?:  string;
+  paragraphs?: string;
+  heading?: string;
+   
+ }
 
 export default function ProjectCards({photocards, heading, paragraphs}: Props) {
   return (

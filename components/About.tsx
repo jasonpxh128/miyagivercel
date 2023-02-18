@@ -12,7 +12,7 @@ import menuomakase from "./assets/menuomakase.jpeg"
 
 
 type Props = {
-  photocards?:  StaticImageData;
+  photocards?:  string;
   brandlogos?: StaticImageData;
   paragraphs?: string;
   heading?: string;
