@@ -19,7 +19,7 @@ export default function AboutCards({photocards }: Props) {
         viewport={{once:true}}
         src={photocards}
         // className="flex-shrink-0 w-[300px] h-380px] pt-3 rounded-  md:rounded-lg md:w-[500px] md:h-[660px]"
-        className="flex-shrink-0 w-[300px] h-[535px] pt-3 rounded-sm  md:rounded-lg md:w-[336px] md:h-[600px]"
+        className="flex-shrink-0 w-[390px] h-[410px] pt-3 rounded-sm  md:rounded-lg md:w-[506px] md:h-[531px]"
 
       />
       </article>

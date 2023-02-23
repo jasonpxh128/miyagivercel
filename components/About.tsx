@@ -3,11 +3,12 @@ import {motion} from "framer-motion"
 import AboutCards2 from "./AboutCards2"
 import { StaticImageData } from 'next/image'
 
-import menu1 from "./assets/menu1.jpeg"
-import menu2 from "./assets/menu2.jpeg"
-import menu3 from "./assets/menu3.jpeg"
-import menu4 from "./assets/menu4.jpeg"
-import menuomakase from "./assets/menuomakase.jpeg"
+import menu1 from "./assets/newmenu1.jpeg"
+import menu2 from "./assets/newmenu2.jpeg"
+import menu3 from "./assets/newmenu3.jpeg"
+import menu4 from "./assets/newmenu4.jpeg"
+import menu5 from "./assets/newmenu5.jpeg"
+import menu6 from "./assets/newmenu6.jpeg"
 
 
 
@@ -34,7 +35,8 @@ export default function About({ photocards, brandlogos, heading, paragraphs}: Pr
         <AboutCards2 photocards={menu2.src} />
         <AboutCards2 photocards={menu3.src} />
         <AboutCards2 photocards={menu4.src} />
-        <AboutCards2 photocards={menuomakase.src} />
+        <AboutCards2 photocards={menu5.src} />
+        <AboutCards2 photocards={menu6.src} />
         {/* <AboutCards2 photocards={aboutlogo.src} brandlogos ={osrenlogo.src} heading='Ceramic' paragraphs='Simplify your daily maintenance routine like never before with a hydrophobic ceramic coating package from Chicago Auto Pros! Our customers have the luxury of selecting a comprehensive paint protection package, featuring either Modesta or Gtechniq ceramic coatings, among other add-on coating services that further enhance your paintwork’s gloss.'/>
         <AboutCards2 photocards={aboutlogo.src} brandlogos ={osrenlogo.src} heading='Ceramic' paragraphs='Simplify your daily maintenance routine like never before with a hydrophobic ceramic coating package from Chicago Auto Pros! Our customers have the luxury of selecting a comprehensive paint protection package, featuring either Modesta or Gtechniq ceramic coatings, among other add-on coating services that further enhance your paintwork’s gloss.'/>
         <AboutCards2 photocards={aboutlogo.src} brandlogos ={osrenlogo.src} heading='Ceramic' paragraphs='Simplify your daily maintenance routine like never before with a hydrophobic ceramic coating package from Chicago Auto Pros! Our customers have the luxury of selecting a comprehensive paint protection package, featuring either Modesta or Gtechniq ceramic coatings, among other add-on coating services that further enhance your paintwork’s gloss.'/> */}
