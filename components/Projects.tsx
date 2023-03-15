@@ -5,7 +5,7 @@ import {motion} from "framer-motion"
 
 
 import tint from "./assets/tint.jpeg"
-import ppf from "./assets/ppf.jpeg"
+import ppf from "./assets/ppf.webp"
 
 
 type Props = {
