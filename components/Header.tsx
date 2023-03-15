@@ -32,7 +32,7 @@ export default function  ({}: Props) {
         fgColor='grey'
         bgColor='transparent'/>
 
-        <SocialIcon className='m-1' url='https://www.instagram.com/miyagi.my/?hl=en'
+        <SocialIcon className='m-1' url='https://wa.me/60138627489'
         fgColor='grey'
         bgColor='transparent'/>
 
