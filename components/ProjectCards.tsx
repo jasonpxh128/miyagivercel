@@ -21,7 +21,7 @@ export default function ProjectCards({photocards, heading, paragraphs}: Props) {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{once:true}}
           src={photocards}
-          className="md:w-[336px] md:h-[304px]"
+          className="md:w-[336px] md:h-[304px] w-[168px] h-[152px]"
         />
         <div className='space-y-10 px-0 md:px-10 max-w-6xl'>
           <h4 className="text-4xl font-semibold text-center"> 

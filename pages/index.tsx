@@ -34,9 +34,9 @@ const Home: NextPage = () => {
       
       </section>
 
-      {/* Brands */}
+      {/* Brands <Brands/>*/}
       <section id="brands" className=' snap-start'>
-        <Brands/>
+        
       </section> 
 
       {/* Projects */}
