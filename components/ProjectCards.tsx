@@ -11,7 +11,7 @@ type Props = {
 
 export default function ProjectCards({photocards, heading, paragraphs}: Props) {
   return (
-    <div className='mt-10 w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen'>
+    <div className='pt-10 w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-10 md:p-44 h-screen'>
         <motion.img
          initial={{
             y: -300,
@@ -21,7 +21,7 @@ export default function ProjectCards({photocards, heading, paragraphs}: Props) {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{once:true}}
           src={photocards}
-          className="md:w-[336px] md:h-[600px]"
+          className="md:w-[336px] md:h-[304px]"
         />
         <div className='space-y-10 px-0 md:px-10 max-w-6xl'>
           <h4 className="text-4xl font-semibold text-center"> 

@@ -7,11 +7,11 @@ type Props = {}
   
 export default function Projects({}: Props) {
   return (
-    <div className=' h-screen relative flex overflow-hidden flex-col text-left md:flex-row max-w-full justify-evenly mx-auto items-center z-0'>  
-        <h3 className=' md:visible absolute top-24 uppercase tracking-[20px] @text-gray-500 text-2xl'>Contact Us</h3>
+    <div className='bg-black text-white h-screen relative flex overflow-hidden flex-col text-center md:flex-row max-w-full justify-evenly mx-auto items-center z-0'>  
+        <h3 className=' absolute top-24 uppercase tracking-[20px] @text-gray-500 text-2xl'>Contact Us</h3>
       <div className='flex flex-col space-y-10'>
         
-        <h4 className='text-4xl font-semibold text-center'>
+        <h4 className='visible text-4xl font-semibold text-center'>
             We have got what you need, let's talk
         </h4>
 
@@ -24,7 +24,7 @@ export default function Projects({}: Props) {
 
           <div className=' flex items-center space-x-5 justify-center'>
             <MapPinIcon className=' text-red-500/100 h-7 w-7 animate-pulse'/>
-            <a href="https://goo.gl/maps/T6RTE6nRnLgRZrKu5" className='text-2xl'>GT Auto Club, Jalan Kelikir, Mines Wellness City</a>
+            <a href="https://goo.gl/maps/T6RTE6nRnLgRZrKu5" className=' ml-0 md:text-2xl text-xl text-center'>GT Auto Club, Mines Wellness City</a>
           </div>
 
           <div className=' flex items-center space-x-5 justify-center'>
@@ -32,7 +32,7 @@ export default function Projects({}: Props) {
             <p className=' text-2xl'>miyagi.malaysia@gmail.com</p>
           </div>
 
-          <div className=' flex items-center space-x-5 justify-center bg-gray-50'>
+          <div className=' flex items-center space-x-5 justify-center '>
             {/* Social Icons */}
             <SocialIcon className='m-1' url='https://www.instagram.com/miyagi.my/?hl=en'
             fgColor='#c32aa3'
@@ -49,6 +49,9 @@ export default function Projects({}: Props) {
 
         </div>
 
+        {/*<div className=' absolute z-0 justify-center mx-auto'>
+            <img src="https://irp.cdn-website.com/06181319/dms3rep/multi/ferari-1012w.webp" alt="miyagi ferrari" />
+          </div> */}
       </div>
 
     </div>
