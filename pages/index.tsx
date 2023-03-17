@@ -26,7 +26,6 @@ const Home: NextPage = () => {
       <Hero/>
       </section>
 
-
       {/* Projects */}
       <section id="projects" className=' snap-start'> 
         <Projects/>

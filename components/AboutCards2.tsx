@@ -8,7 +8,7 @@ type Props ={
 
 export default function AboutCards({photocards }: Props) {
   return (
-    <article className="flex flex-col md:flex-row rounded-lg items-center flex-shrink-0 snap-center bg-[[#292929] p-10 hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden">
+    <article className="flex flex-col md:flex-row rounded-lg items-center flex-shrink-0 snap-center bg-[[#292929] p-10 hover:opacity-100 md:opacity-40 opacity-100 cursor-pointer transition-opacity duration-200 overflow-hidden">
       <motion.img 
         initial={{
           y: -100,
