@@ -29,7 +29,8 @@ export default function Projects({}: Props) {
 
           <div className=' flex items-center space-x-5 justify-center'>
             <EnvelopeIcon className=' text-red-500/100 h-7 w-7 animate-pulse'/>
-            <p className=' text-2xl'>miyagi.malaysia@gmail.com</p>
+            <a href="mailto:miyagi.malaysia@gmail.com" className=' text-2xl'>miyagi.malaysia@gmail.com</a>
+            
           </div>
 
           <div className=' flex items-center space-x-5 justify-center '>
