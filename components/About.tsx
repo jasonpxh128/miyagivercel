@@ -31,7 +31,7 @@ export default function About({ photocards, brandlogos, heading, paragraphs}: Pr
       className="flex relative h-screen md:space-y-10
       max-w-7xl px-5  mx-auto items-center justify-center">
       <h3 className=' ml-10 absolute justify-center top-24 uppercase tracking-[20px] text-gray-500 text-2xl  mx-auto'>Our Menu</h3>
-      <div className=" w-full pt-20 flex space-x-3 overflow-x-scroll overflow-y-hidden p-10 snap-x snap-mandatory scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-red-500/100 ">
+      <div className=" w-full pt-20 flex space-x-2 overflow-x-scroll overflow-y-hidden p-10 snap-x snap-mandatory scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-red-500/100 ">
         <AboutCards2 photocards={menu1.src} />
         <AboutCards2 photocards={menu2.src} />
         <AboutCards2 photocards={menu3.src} />

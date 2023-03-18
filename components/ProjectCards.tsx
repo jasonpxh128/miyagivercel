@@ -32,7 +32,7 @@ export default function ProjectCards({photocards, heading, paragraphs}: Props) {
 
           <p className=" text-sm text-center md:text-lg md:text-left">{paragraphs}</p>
           <div className=' flex items-center space-x-5 justify-center'>
-            <ChevronDoubleRightIcon className='md:invisible visible text-red-500/100 h-12 w-12 animate-pulse'/>
+            <ChevronDoubleRightIcon className='md:invisible visible text-white h-12 w-12 animate-pulse'/>
           </div>
 
         </div>
