@@ -13,7 +13,7 @@ type Props = {
 
 export default function ProjectCards({photocards, heading, paragraphs}: Props) {
   return (
-    <div className='pt-10 w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-10 md:p-44 h-screen'>
+    <div className='pt-10 w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-10 md:mt-14 md:p-44 h-screen'>
         <motion.img
          initial={{
             y: -300,

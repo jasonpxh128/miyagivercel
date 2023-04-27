@@ -5,7 +5,7 @@ import {motion} from "framer-motion"
 
 
 import tint from "./assets/tint.jpeg"
-import ppf from "./assets/ppf.webp"
+import ppf from "./assets/ppf.jpeg"
 
 
 type Props = {
@@ -17,8 +17,10 @@ type Props = {
   
 export default function Projects({photocards, heading, paragraphs}: Props) {
   return (
-    <div className='h-screen relative flex overflow-hidden flex-col text-left md:flex-row max-w-full justify-evenly mx-auto items-center z-0'>  
-        <h3 className='visible absolute top-24 uppercase tracking-[20px] @text-gray-500 text-2xl'>Projects</h3>
+    <div className='h-screen relative flex overflow-hidden flex-col text-center md:flex-row max-w-full justify-evenly mx-auto items-center z-0'>  
+        <h3 className=' absolute top-20 uppercase tracking-[20px] text-3xl font-semibold text-center'>
+          <span className="underline decoration-white/50">Projects</span>
+        </h3>
         
         <div className='relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-red-500/100 '>
             <ProjectCards photocards={tint.src} heading ="Window Tinting" paragraphs="Whether your ride needs interior protection from the sun or added privacy against any burglars peeking in, window tint films can do the trick! Also supplied to Chicago Auto Pros by XPEL, our window tinting services work for even the most unique vehicles as a way to help keep your vehicle’s interior temperature down in direct sunlight while simultaneously working to thwart potential break ins." />
