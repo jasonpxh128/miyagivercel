@@ -11,7 +11,7 @@ export default function Projects({}: Props) {
         <h3 className=' absolute top-24 uppercase tracking-[20px] @text-gray-500 text-2xl'>Contact Us</h3>
       <div className='flex flex-col space-y-10'>
         
-        <h4 className='visible text-4xl font-semibold text-center'>
+        <h4 className='visible text-3xl font-semibold text-center px-2 text-red-500/100'>
             We have got what you need, let's talk
         </h4>
 
