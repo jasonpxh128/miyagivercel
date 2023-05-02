@@ -2,7 +2,7 @@ import React from 'react'
 import {motion} from "framer-motion"
 import { PhoneIcon, MapPinIcon,EnvelopeIcon} from "@heroicons/react/24/solid";
 import { SocialIcon } from 'react-social-icons';
-
+import ClientLogos from '../components/Client-logos'
 type Props = {}
   
 export default function Projects({}: Props) {
@@ -48,13 +48,16 @@ export default function Projects({}: Props) {
             bgColor='transparent'/>
           </div>
 
+          <div>
+            <ClientLogos/>
+          </div>
+
         </div>
 
         {/*<div className=' absolute z-0 justify-center mx-auto'>
             <img src="https://irp.cdn-website.com/06181319/dms3rep/multi/ferari-1012w.webp" alt="miyagi ferrari" />
           </div> */}
       </div>
-
     </div>
   )
 }

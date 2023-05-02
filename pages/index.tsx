@@ -7,6 +7,8 @@ import Hero from '../components/Hero'
 import Brands from '../components/Brands'
 import Projects from '../components/Projects'
 import Contacts from '../components/Contacts'
+// import Skills from '../components/Skills'
+import ClientLogos from '../components/Client-logos'
 
 
 
@@ -25,7 +27,8 @@ const Home: NextPage = () => {
       <section id="Hero " className=' snap-start'>
       <Hero/>
       </section>
-
+      
+      
       {/* Projects */}
       <section id="projects" className=' snap-start'> 
         <Projects/>
@@ -33,7 +36,7 @@ const Home: NextPage = () => {
 
       {/* About */}
       <section id="About " className='snap-center'>
-      <About/>
+        <About/>
       {/* <About2/> */}
       
       </section>
@@ -46,7 +49,17 @@ const Home: NextPage = () => {
       {/* Contact Us */}
       <section id="Contact" className=' snap-start'> 
         <Contacts/>
+        
       </section>
+
+      {/* Contact Us */}
+      {/* <section id="logos" className=' snap-start'> 
+        <ClientLogos/>
+        logos
+      </section> */}
+      
+
+
     </div>
   )
 }
