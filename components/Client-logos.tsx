@@ -34,17 +34,17 @@ const ClientLogos: React.FC = () => (
         objectFit='contain'
       />
             <Image
-        src='/assets/swissvax-logo.png'
+        src='/assets/carprologo.png'
         width={150}
         height={50}
-        alt="Meguirs"
+        alt="carpro"
         objectFit='contain'
       />
             <Image
-        src='/assets/carpro-logo.png'
+        src='/assets/sonax-logo.png'
         width={150}
         height={50}
-        alt="Meguirs"
+        alt="Sonax"
         objectFit='contain'
       />
             <Image
